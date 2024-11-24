@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bolder;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li .action{
+    color: blanchedalmond;
+    text-decoration: underline;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    padding: 7%;
+    position: absolute;
+    top: 25%;
+    left: 34%;
+  }
+  form h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* text-align: center; */
+    font-size: 35px;
+  }
+  form h1:hover{
+    text-decoration: underline;
+  }
+  .box {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box input {
+    border-radius: 10px;
+    border-style: bolder;
+    height: 25px;
+    width: 330px;
+  }
+  .box input:hover{
+    border-style: bolder;
+    cursor: pointer;
+    border-width: 10px ;
+  }
+  .box span i {
+    display: flex;
+    margin-right: 10px;
+    filter: invert(100%);
+  }
+  
+  .box1 {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box1 input {
+    border-radius: 10px;
+    height: 25px;
+    width: 330px;
+  }
+  .box1 input:hover{
+    border-style: bolder;
+    cursor: pointer;
+    border-width: 10px;
+  }
+  
+  input::placeholder {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .box1 span i {
+    display: flex;
+    filter: invert(100%);
+    margin-right: 10px;
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 320px;
+    right: 30%;
+  }
+  
+  .button button{
+    font-weight: bolder;
+    margin-right: 10px;
+    width: 60px;
+    color: black;
+  }
+  button[type="reset"]{
+    margin-left:45px ;
+  }
+  .button2{
+    position: absolute;
+    left: 50%;
+    bottom: 161px;
+    top: 320px;
+  }
+  
+  .button2 button{
+    font-weight: bolder;
+    color: black;
+    width: 60px;
+  }
+  #search{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
