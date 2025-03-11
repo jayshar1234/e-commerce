@@ -54,10 +54,12 @@ body {
     top: 25%;
     left: 34%;
   }
-  form h1 {
+  form h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: px;
+    height: px;
     color: white;
     /* text-align: center; */
     font-size: 35px;
